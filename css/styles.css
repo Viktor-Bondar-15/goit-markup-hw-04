@@ -342,7 +342,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     display: flex;
     align-items: center;
     justify-content: center;
-fill: #f4f4fd;
+    fill: #f4f4fd;
     background-color: #4d5ae5;
     border-radius: 50%;
     width: 40px;
@@ -511,4 +511,12 @@ font-weight: 700;
 .footer-social-link:hover,
 .footer-social-link:focus {
     background-color: #31d0aa;
+}
+.footer-main-box{
+    margin-right: 120;
+}
+
+.footer-box{
+    display: flex;
+    align-items: baseline;
 }
