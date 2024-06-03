@@ -56,7 +56,7 @@ p{
     content: "";
     width: 100%;
     height: 4px;
-    background: #404bbf;
+    background-color: #404bbf;
     border-radius: 2px;
     position: absolute;
     left: 0;
@@ -92,7 +92,6 @@ p{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        /*color: #2e2f42;*/
         color: #404BBF;
         padding: 24px 0;
         display: block;
@@ -101,7 +100,8 @@ p{
 }
 
 .header-menu-link:hover,
-.header-menu-link:focus {color: #404bbf;
+.header-menu-link:focus {
+        color: #404bbf;
     }
 
     .header-menu-link::after {
